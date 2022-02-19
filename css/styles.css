@@ -19,6 +19,16 @@ li {
   color: black;
 }
 
+.contactsheader .emailheader .telheader:hover,
+.contactsheader .emailheader .telheader:focus {
+  color: blue;
+}
+
+.emailheader,
+.telheader {
+  color: #757575;
+}
+
 .nav {
   font-family: Roboto;
   font-style: normal;
@@ -26,6 +36,11 @@ li {
   font-size: 14px;
   line-height: 16px;
   color: #212121;
+}
+
+.pages .nav:hover,
+.pages .nav:focus {
+  color: blue;
 }
 
 .buttonstudio {
@@ -56,4 +71,18 @@ li {
   line-height: 26px;
   text-align: center;
   color: #212121;
+}
+
+.filters .button:hover,
+.filters .button:focus {
+  color: blue;
+}
+
+.contactsfooter .email .tel:hover,
+.contactsfooter .email .tel:focus {
+  color: blue;
+}
+
+.button {
+  cursor: pointer;
 }
