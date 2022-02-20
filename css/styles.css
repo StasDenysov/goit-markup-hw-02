@@ -89,19 +89,19 @@ a {
   font-size: 44;
 }
 
-.discription > h2 {
+.discriptiontitle {
   font-family: Roboto;
   font-size: 14;
   font-weight: bold;
 }
 
-.discription > h2 > h3 {
+.discriptionli > h3 {
   font-family: Roboto;
   font-size: 14;
   font-weight: bold;
 }
 
-.discription > p {
+.discriptionli > p {
   font-family: Roboto;
   font-size: 14;
   font-weight: regular;
