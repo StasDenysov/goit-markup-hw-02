@@ -2,21 +2,30 @@ li {
   list-style-type: none;
 }
 
-.logoblue {
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 31px;
-  color: #2196f3;
+:root {
+  --primary-color: #000000;
+  --secondary-color: #2196f3;
+  --footer-color: white;
 }
-.logoblack {
+
+a {
+  text-decoration: none;
+}
+
+.logo {
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
-  color: black;
+}
+
+.logoblue {
+  color: var(--secondary-color);
+}
+
+.logoblack {
+  color: var(--primary-color);
 }
 
 .contactsheader .emailheader .telheader:hover,
