@@ -28,9 +28,9 @@ a {
   color: var(--primary-color);
 }
 
-.contactsheader .emailheader .telheader:hover,
-.contactsheader .emailheader .telheader:focus {
-  color: blue;
+.contactsheader :hover,
+.contactsheader :focus {
+  color: var(--secondary-color);
 }
 
 .emailheader,
@@ -82,13 +82,8 @@ a {
   color: #212121;
 }
 
-.filters .button:hover,
-.filters .button:focus {
-  color: blue;
-}
-
-.contactsfooter .email .tel:hover,
-.contactsfooter .email .tel:focus {
+.filters :hover,
+.filters :focus {
   color: blue;
 }
 
